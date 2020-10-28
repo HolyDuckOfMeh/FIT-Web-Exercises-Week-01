@@ -4,3 +4,66 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+
+.page-navbar{
+  background-color: #3b3b3b;
+  height: auto;
+  padding-top: 15x;
+  padding-bottom: 15x;
+ }
+
+.page-footer{
+  background-color: #3b3b3b;
+  height: auto;
+  padding-top: 15x;
+  padding-bottom: 15x;
+}
+
+.header-text{
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  font-size: 35px;
+}
+
+.welcome-header{
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 35px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  padding-top: 15x;
+}
+
+.page-navbar img{
+  max-width: 50px;
+}
+
+.transparent-background{
+	background: rgba(73, 73, 73, 0.73);
+    padding: 20px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 26px;
+}
+
+.transparent-background:nth-child(1){
+	background: rgba(112, 250, 100, 0.73);
+}
+
+.transparent-background:nth-child(5){
+	background: rgba(121, 71, 212, 0.73);
+}
+
+.product-card-one{
+
+}
+
+.product-card-two{
+
+}
+
+.product-card-three{
+
+}
