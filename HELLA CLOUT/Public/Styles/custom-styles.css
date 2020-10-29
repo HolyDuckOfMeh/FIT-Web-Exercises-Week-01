@@ -1,3 +1,50 @@
+.page-grid{
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto auto;
+}
+
+.page-navbar{
+  grid-row: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  position: sticky;
+  top: 0;
+  background-color: #181818;
+  height: auto;
+  padding-top: 15x;
+  padding-bottom: 15x;
+}
+
+.btn-contact{
+  display: grid;
+  grid-column: 2;
+  float: left;
+  margin: auto;
+  margin-left: 10%;
+  padding: 7px 45px 7px 45px;
+  font-weight: bold;
+  border: none;
+}
+
+.btn-clout{
+  display: grid;
+  grid-column: 4;
+  float: right;
+  margin: auto;
+  margin-right: 10%;
+  padding: 7px 45px 7px 45px;
+  font-weight: bold;
+  border: none;
+}
+
+.hr-gold{
+  border: 1px solid goldenrod;
+  width: 1700px;
+
+}
+
 body {
   background-image: url('../Images/smokeeee.png');
   background-repeat: no-repeat;
@@ -5,15 +52,8 @@ body {
   background-size: cover;
 }
 
-.page-navbar{
-  background-color: #3b3b3b;
-  height: auto;
-  padding-top: 15x;
-  padding-bottom: 15x;
- }
-
 .page-footer{
-  background-color: #3b3b3b;
+  background-color: #181818;
   height: auto;
   padding-top: 15x;
   padding-bottom: 15x;
@@ -28,8 +68,9 @@ body {
 
 .welcome-header{
   text-align: center;
+  background-color: rgba(255, 255, 255, 0);
   color: #ffffff;
-  font-weight: bold;
+  font-weight: lighter;
   font-size: 35px;
   margin-top: 0px;
   margin-bottom: 15px;
