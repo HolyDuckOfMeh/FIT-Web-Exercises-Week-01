@@ -32,43 +32,51 @@
       </div>
       <hr>
     <!-- Navbar -->
-
+      
     <!-- Welcome Message -->
-      <h2 class='welcome-header'>Your one-stop shop to becoming the next Mr. Beast.<br>Get lit and get CLOUT!</h2>
-      <hr class='hr-gold'>
+      <div class='welcome-trending-message'>
+        <h2 class='welcome-header'>Your one-stop shop to becoming the next Mr. Beast.<br>Get lit and get CLOUT!</h2>
+        <hr class='hr-gold'>
 
     <!-- Welcome Message -->
 
     <!-- Products -->
       <h2 style='text-align: center; color: #ffffff; padding-top: 25px; ;'>Trending Products</h2>
-
+      </div>
         <!-- Product Container -->
-          <div>
+          <div class='page-products-grid'>
 
             <!-- Product 1 -->
-              <div class='product-card-one transparent-background'>
-                <p>Clout Goggles</p>
-                <img src='./Public/Images/clout_goggles.png' height="300px" width="auto">
-                <p>The dankest goggles around.</p>
-                <button>Add To Cart | $250.00</button>
+              <div class='product-card-one-grid transparent-background'>
+                  <img style= 'grid-column: 1; float: right; margin: auto;' src='./Public/Images/clout_goggles.png' height="300px" width="auto"> 
+                <div class='product-description'>
+                  <p>Clout Goggles</p>
+                  <p>The dankest goggles around.</p>
+                  <button class='btn btn-success' style='background-color: purple; border: none;'>Add To Cart | $250.00</button>
+                </div>
               </div><br>
             <!-- Product 1 -->
 
             <!-- Product 2 -->
-              <div class='product-card-two transparent-background'>
-                <p>Supreme Brick</p>
-                <img src='./Public/Images/SUPREEEEMEbrock.png' height="300px" width="auto">
-                <p>The superior brick of choice.</p>
-                <button>Add To Cart | $2000.00</button>
+              <div class='product-card-two-grid transparent-background'>
+                 <img style= 'grid-column: 1; float: right; margin: auto;' src='./Public/Images/SUPREEEEMEbrock.png' height="300px" width="auto" >    
+                <div class='product-description'>
+                  <p>Supreme Brick</p>
+                  <p>The superior brick of choice.</p>
+                  <button class='btn btn-success' style='background-color: purple; border: none;'>Add To Cart | $2000.00</button>
+                </div>
               </div><br>
             <!-- Product 2 -->
 
             <!-- Product 3 -->
-              <div class='product-card-three transparent-background'>
-                <p>Supreme Fanny Pack</p>
-                <img src='./Public/Images/SUPREEEEMEFannypack.png' height="300px" width="auto">
-                <p>SUPREEEEME vape pouch!</p>
-                <button>Add To Cart | $750.00</button>
+              <div class='product-card-three-grid transparent-background'> 
+                <img style= 'grid-column: 1; float: right; margin: auto;' src='./Public/Images/SUPREEEEMEFannypack.png' height="300px" width="auto">
+                <div class='product-description'>
+                  <p>Supreme Fanny Pack</p>
+                  <p>SUPREEEEME vape pouch!</p> 
+                  <button class='btn btn-success' style='background-color: purple; border: none;'>Add To Cart | $750.00</button>
+                </div>
+               
               </div><br>
             <!-- Product 3 -->
             
@@ -77,8 +85,8 @@
     <!-- Products -->
 
     <!-- Footer -->
-      <div class='page-footer'>
-        <center><p>© 2020 SONY CORPORATION OF AMERICA - TERMS AND CONDITIONS - PRIVACY POLICY - CA PRIVACY NOTICE</p></center>
+      <div class='page-footer-grid'>
+        <p style='color: #ffffff'>© 2020 SONY CORPORATION OF AMERICA - TERMS AND CONDITIONS - PRIVACY POLICY - CA PRIVACY NOTICE</p>
       </div>
     <!-- Footer -->
   </div>

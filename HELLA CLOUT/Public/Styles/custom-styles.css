@@ -52,13 +52,6 @@ body {
   background-size: cover;
 }
 
-.page-footer{
-  background-color: #181818;
-  height: auto;
-  padding-top: 15x;
-  padding-bottom: 15x;
-}
-
 .header-text{
   color: #ffffff;
   font-weight: bold;
@@ -97,14 +90,55 @@ body {
 	background: rgba(121, 71, 212, 0.73);
 }
 
-.product-card-one{
-
+.welcome-trending-message{
+  grid-row: 2;
+  display: grid;
 }
 
-.product-card-two{
-
+.page-products-grid{
+  grid-row: 3;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  height: auto;
+  padding-top: 15x;
+  padding-bottom: 15x;
 }
 
-.product-card-three{
 
+
+.product-card-one-grid{
+  grid-row: 1;
+  display: grid;
+}
+
+.product-description{
+  grid-row: 1;
+  grid-column: 2;
+  display: grid;
+  text-align: center;
+}
+
+.product-card-two-grid{
+  grid-row: 2;
+  display: grid;
+}
+
+.product-card-three-grid{
+  grid-row: 3;
+  display: grid;
+}
+
+.page-footer-grid{
+  grid-row: 5;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  background-color: #181818;
+  text-align: center;
+  height: auto;
+  padding-top: 15x;
+  padding-bottom: 15x;
+  border-top: 1px solid goldenrod;
+  bottom: 0
 }
